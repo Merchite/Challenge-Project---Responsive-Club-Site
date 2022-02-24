@@ -5,7 +5,13 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #111;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
 
 body {
     margin: 0;
@@ -149,7 +155,7 @@ main h3, main h4, main h5 {
 
 /* Left Styling */
 #left {
-    width: 32%;
+    width: 30%;
     padding: 1rem;
 }
 
@@ -211,11 +217,11 @@ main h3, main h4, main h5 {
 
 /* Right Styling */
 #right {
-    width: 62%;
+    width: 70%;
     padding: 1rem;
 }
 
-.container {
+.containser {
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
